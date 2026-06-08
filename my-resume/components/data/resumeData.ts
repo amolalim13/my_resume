@@ -48,38 +48,51 @@ export const resume = {
     ]
   },
   experience: [
-    {
-      company: "Finoux Solutions Private Limited",
-      role: "Senior Software Engineer",
-      duration: "Oct 2025 - Present",
-      location: "Mumbai, Maharashtra, India.",
-      responsibilities: [
-        "Develop and maintain Flutter applications for BFSI domain clients.",
-        "Implement new business features and enhancements.",
-        "Resolve production issues and critical defects.",
-        "Collaborate with QA, Backend, Product, and Business teams.",
-        "Implement Firebase and CleverTap integrations.",
-        "Perform VAPT remediation and security compliance fixes.",
-        "Optimize application performance and user experience.",
-        "Participate in code reviews and release management."
-      ]
-    },
-    {
-      company: "Finoux Solutions Private Limited",
-      role: "Software Engineer",
-      duration: "Mar 2021 - Sep 2025",
-      location: "Mumbai, Maharashtra, India.",
-      responsibilities: [
-        "Developed and maintained Ionic Angular mobile applications.",
-        "Worked on enterprise-level financial applications.",
-        "Implemented REST API integrations.",
-        "Delivered new features and requirement enhancements.",
-        "Fixed application bugs and production issues.",
-        "Worked closely with stakeholders to translate business requirements into technical solutions.",
-        "Supported application deployment and maintenance."
-      ]
-    }
-  ],
+  {
+    company: "Finoux Solutions Private Limited",
+    role: "Senior Software Engineer",
+    duration: "Oct 2025 - Present",
+    location: "Mumbai, Maharashtra, India",
+    responsibilities: [
+      "Lead the development and enhancement of Flutter-based mobile applications for BFSI clients.",
+      "Drive end-to-end feature delivery from requirement analysis to production deployment.",
+      "Collaborate with Product, QA, Backend, and Business teams to deliver scalable solutions.",
+      "Conduct code reviews to maintain code quality standards.",
+      "Implement Firebase, CleverTap, and other third-party integrations to support business needs.",
+      "Ensure application security, VAPT compliance, and performance optimization across releases."
+    ]
+  },
+
+  {
+    company: "Finoux Solutions Private Limited",
+    role: "Software Engineer",
+    duration: "Oct 2022 - Sep 2025",
+    location: "Mumbai, Maharashtra, India",
+    responsibilities: [
+      "Developed and maintained enterprise-grade Ionic Angular & Flutter mobile applications for BFSI clients.",
+      "Implemented new features, enhancements, and REST API integrations based on business requirements.",
+      "Resolved production issues and application defects to improve stability and user experience.",
+      "Collaborated with cross-functional teams throughout the software development lifecycle.",
+      "Participated in code reviews and followed coding standards to ensure maintainable code.",
+      "Supported application releases, deployments, and post-production maintenance activities."
+    ]
+  },
+
+  {
+    company: "Finoux Solutions Private Limited",
+    role: "Associate Software Engineer",
+    duration: "June 2021 - Sep 2022",
+    location: "Mumbai, Maharashtra, India",
+    responsibilities: [
+      "Developed mobile application modules and UI components using Ionic Angular and TypeScript.",
+      "Integrated REST APIs and implemented business requirements under senior team guidance.",
+      "Fixed bugs and contributed to application enhancements and maintenance activities.",
+      "Participated in testing, debugging, and issue resolution during development cycles.",
+      "Assisted in application deployments and release validation processes.",
+      "Worked within Agile teams to deliver high-quality mobile application features."
+    ]
+  }
+],
   projects: [
     {
       name: "PaisaGenie (SBI Life Insurance)",
@@ -144,7 +157,7 @@ export const resume = {
       ]
     },
     {
-      name: "Bond Bazar",
+      name: "BondBazaar",
       technologies: ["Flutter", "CleverTap", "Firebase"],
       overview: "A digital investment platform focused on bond investment and portfolio management.",
       contributions: [
@@ -174,6 +187,38 @@ export const resume = {
       degree: "Diploma in Information Technology",
       institution: "Government Polytechnic, Mumbai",
       score: "77.39%"
+    }
+  ],
+  certifications: [
+    {
+      title: "Modern JavaScript: ES6 Basics",
+      provider: "Coursera",
+      url: "https://www.coursera.org/account/accomplishments/verify/TP4K2ZCVRJZM"
+    },
+    {
+      title: "SQL for Data Science",
+      provider: "Coursera",
+      url: "https://www.coursera.org/account/accomplishments/verify/CKV4P6KVEXXT"
+    },
+    {
+      title: "Building Web Applications in PHP",
+      provider: "Coursera",
+      url: "https://www.coursera.org/account/accomplishments/verify/B2HHPDJR3H6E"
+    },
+    {
+      title: "Python Data Structures",
+      provider: "Coursera",
+      url: "https://www.coursera.org/account/accomplishments/verify/QZV4BC58AHJ2"
+    },
+    {
+      title: "Programming for Everybody (Getting Started with Python)",
+      provider: "Coursera",
+      url: "https://www.coursera.org/account/accomplishments/verify/XLN2JYSC6LVU"
+    },
+    {
+      title: "Master Machine Learning, Deep Learning with Python",
+      provider: "Udemy",
+      url: "https://www.udemy.com/certificate/UC-KGVTE2CI"
     }
   ]
 };

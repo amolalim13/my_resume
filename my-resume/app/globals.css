@@ -47,3 +47,51 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Print styles for PDF output */
+@page {
+  size: A4;
+  margin: 20mm;
+}
+
+@media print {
+  html, body {
+    background: white !important;
+    color: #111827 !important;
+  }
+
+  /* Avoid printing interactive controls */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Ensure good color printing */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Make the resume use full width on the page */
+  .container, .root, .resume-root {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Remove rounded corners, shadows and borders for print */
+  .resume-root, .resume-root * {
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  /* Remove padding from cards to avoid cutting content */
+  .resume-root .p-6 {
+    padding: 8px !important;
+  }
+
+  /* Avoid page breaks inside important sections */
+  .no-break-inside {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
